@@ -2,7 +2,8 @@
 title: "macroAnalysis_YourNAME"
 subtitle: "BIO 131 Macroinvertebrate Data Analysis"
 author: "Your Name"
-date: "March , 2026"
+date: today
+date-format: long
 format: typst
 ---
 
@@ -16,7 +17,9 @@ Update the YAML above (lines 1-7) :
 
 -   **title**: replace YourName in the title with your name (no spaces). This will ensure that your PDF file gets named correctly when you render this file
 -   **author**: put your name here with spaces
--   **date**: update with today's date
+
+
+NOTE: If you had trouble using typst to render directly to PDF last time, then open the "renderToHTML.qmd" file and replace "format: typst" in the YAML above with lines 7-10 from the "renderToHTML.qmd" file. 
 
 ## Load packages
 

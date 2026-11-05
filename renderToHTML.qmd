@@ -2,7 +2,8 @@
 title: "macroAnalysis_YourNAME"
 subtitle: "BIO 131 Macroinvertebrate Data Analysis"
 author: "Your Name"
-date: "November , 2025"
+date: today
+date-format: long
 format: 
   html:
     code-overflow: wrap

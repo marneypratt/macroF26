@@ -1,4 +1,4 @@
-This “macros_metadata” file was most recently updated on 2025-10-20 by Marney Pratt
+This “macros_metadata” file was most recently updated on 2026-11-05 by Marney Pratt
 
 
 -------------------
@@ -8,7 +8,7 @@ GENERAL INFORMATION
 
 1. Title of Dataset 
 
-Mill River Macroinvertebrate Data for 2019-2024
+Mill River Macroinvertebrate Data for 2019-2025
 
 
 2. Author Information
@@ -25,7 +25,7 @@ Mill River Macroinvertebrate Data for 2019-2024
 3. Date of data collection (single date, range, approximate date) 
 <dates in format YYYY-MM>
 
-2019-05 to 2024-09
+2019-05 to 2025-09
 
 
 4. Geographic location of data collection (where was data collected?): 
@@ -57,12 +57,12 @@ No restrictions other than proper citation/attribution
 
 2. Recommended citation for this metadata text file:
 
-Pratt, MC.  2024.  Mill River macroinvertebrate data metadata for 2019-2024.  
+Pratt, MC.  2026.  Mill River macroinvertebrate data metadata for 2019-2025.  
 Smith College, Northampton, MA.
 
 3. Recommended citation for the data:
 
-Pratt, MC.  2024.  Mill River macroinvertebrate data for 2019-2024.  
+Pratt, MC.  2026.  Mill River macroinvertebrate data for 2019-2025.  
 Smith College, Northampton, MA.
 
 
@@ -77,7 +77,7 @@ DATA & FILE OVERVIEW
       Short description:        
 
 Each row shows the data from one type of organism found from a site on the same 
-day.  The data contains all the aquatic invertebrates found for the 2018-2024 
+day.  The data contains all the aquatic invertebrates found for the 2018-2025 
 sampling for the upstream and downstream riffles in the Mill River.  
 
 
