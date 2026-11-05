@@ -1,8 +1,8 @@
-# Macroinvertebrate Data Analysis for Bio 131 Spring 206
+# Macroinvertebrate Data Analysis for Bio 131 Fall 2026
 
 ### by Marney Pratt
 
-### Last updated on March 16, 2026
+### Last updated on November 2026
 
 This webpage details how to download this project which includes all the files you need to analyze data for your Freshwater Macroinvertebrate Project for Bio 131.
 
