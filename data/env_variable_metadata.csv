@@ -25,5 +25,4 @@ flow,Flow Rate (m/s),continuous,Flow rate of the water in meters per second
 turb,Turbidity (NTU),continuous,Turbidity measured in Nephelometric Turbidity Units (NTU)
 cond,Conductivity (microS/cm),continuous,Conductivity measured in microsiemens per centimeter (µS/cm)
 nitrate,Nitrate Concentration (mg/L),continuous,the concentration of Nitrate (NO3–) in milligrams per liter (mg/L) (=ppm) in the water
-alkalinity,Alkalinity (ppm of CaCO3),continuous,the total alkalinity of a water sample in parts per million of calcium carbonate (ppm of CaCO3)
 winter.sediment,Sediment Released (m^3),continuous,The total amount of sediment released from Paradise Pond to the location downstream during the winter before macroinvertebrate sampling measured in cubic meters

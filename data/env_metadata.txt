@@ -547,17 +547,6 @@ nitrate: the concentration of Nitrate (NO3–) in mg/L (=ppm) in the water as
   These measurements were begun in Summer 2022 (we did not have the equipment to
   measure it before then)
 
-alkalinity: the total alkalinity of a water sample in ppm of CaCO3
-
-  Starting in Fall 2022, alkalinity was measured using the Hanna Instruments 
-  Freshwater Alkalinity Checker (order code: HI775, 
-  https://www.hannainst.com/hi775-alkalinity-freshwater.html). 
-  This colorimeter has a resolution of 1 ppm and and accuracy of ±5 ppm or ±5% 
-  of reading. The instrument displays the alkalinity concentration in ppm of CaCO3. 
-  Alkalinity conversion: 1 ppm CaCO3 = 0.02 meq/L = 0.056 dkH
-  
-  A sample of water was taken from each microhabitat and measured in lab that 
-  afternoon (right after sampling) or the next morning
 
 winter.sediment: The total amount of sediment released during the winter before macroinvertebrate sampling measured in cubic meters. 
   
