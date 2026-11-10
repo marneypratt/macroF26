@@ -275,7 +275,7 @@ You can refer back to the dataviz project and look at the effectSize_YourName.qm
 
 ## Record Effect Size Results
 
-From the effect size test output, write the following down in your lab notebook so you will have it all to include in your results:
+From the effect size test output, write the following down in your lab notebook:
 
 -   what type of effect size you calculated (Cohen's d, Cohen's d for Welch test, or Wilcoxon effect size)
 
@@ -361,7 +361,7 @@ If you are working on the Smith server, you will first need to export this file 
 
 -   Select "Export" and then save the file to your computer
 
-Make sure to insert this combined graph into your results slides and write a figure legend in the speaker notes (see the assignment handout for more details).
+Make sure to **insert this combined graph into your lab notebook and write a figure legend below it**.
 
 # Correlation with Environmental Variables
 
