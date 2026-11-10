@@ -993,6 +993,9 @@ LYMSTA,species,Lymnaea stagnalis,Lymnaeidae,Mollusca,NA,Gastropoda,Lymnaeida,Lym
 STASP3,genus,Stagnicola sp.,Lymnaeidae,Mollusca,NA,Gastropoda,Lymnaeida,Lymnaeidae,NA,NA,Stagnicola,NA,NA,6,scr,NA
 PHYSP7,genus,Physa sp.,Physidae,Mollusca,NA,Gastropoda,Lymnaeida,Physidae,NA,NA,Physa,NA,NA,8,cg,NA
 PHYVER,species,Physa vernalis,Physidae,Mollusca,NA,Gastropoda,Lymnaeida,Physidae,NA,NA,Physa,vernalis,NA,8,cg,NA
+PHYSP20,genus,Physella sp.,Physidae,Mollusca,NA,Gastropoda,Lymnaeida,Physidae,NA,NA,Physella,NA,NA,8,cg,NA
+PHYACU1,species,Physella acuta,Physidae,Mollusca,NA,Gastropoda,Lymnaeida,Physidae,NA,NA,Physella,acuta,NA,8,cg,NA
+PHYSPP19,genus,Physa/Physella spp.,Physidae,Mollusca,NA,Gastropoda,Lymnaeida,Physidae,NA,NA,Physa/Physella,NA,NA,8,cg,NA
 BIOSP,genus,Biomphalaria sp.,Planorbidae,Mollusca,NA,Gastropoda,Lymnaeida,Planorbidae,NA,NA,Biomphalaria,NA,NA,6,scr,NA
 GYRSP1,genus,Gyraulus sp.,Planorbidae,Mollusca,NA,Gastropoda,Lymnaeida,Planorbidae,NA,NA,Gyraulus,NA,NA,8,scr,NA
 MENMIC,subgenus,Menetus (Micromenetus) sp.,Planorbidae,Mollusca,NA,Gastropoda,Lymnaeida,Planorbidae,NA,NA,Menetus,NA,NA,6,scr,NA
