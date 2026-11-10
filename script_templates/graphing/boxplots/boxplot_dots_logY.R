@@ -2,7 +2,7 @@
 # make sure you have loaded the ggbeeswarm package to use geom_quasirandom()
 # alternatively, you can use geom_jitter() instead
 
-box.dot.plot <- ggplot(
+box_dot_plot <- ggplot(
   data = ___, #put the data frame name here
   
   #set the aesthetics
@@ -36,7 +36,7 @@ box.dot.plot <- ggplot(
   theme_classic(base_size = 16)  +  #sets the font size
   theme(legend.position = "none")   #controls legend/key
 
-box.dot.plot
+box_dot_plot
 
 #see the resources below for some additional options to make a nice plot 
 # https://www.datanovia.com/en/lessons/ggplot-boxplot/

@@ -1,7 +1,7 @@
 # this code will make a scatter plot 
 # if you do not want a line of best fit, then delete the geom_smooth() line
 
-scatter.plot <- ggplot(
+scatter_plot <- ggplot(
     data = ___, #put the data frame name here
     
     #set the aesthetics
@@ -29,7 +29,7 @@ scatter.plot <- ggplot(
   theme_classic(base_size = 16)  +  #sets the font size
   theme(legend.position = "top")   #controls legend/key
 
-scatter.plot
+scatter_plot
 
 #see the resources below for some additional options to make a nice scatter plot 
 # https://www.datanovia.com/en/lessons/ggplot-scatter-plot/

@@ -1,7 +1,7 @@
 # this code will make a bar graph with means and standard errors
 
 #first calculate the mean, sd, & count the observations in each group
-df.sum <- ___ |>             #data frame name here
+df_sum <- ___ |>             #data frame name here
   group_by(___) |>           #name of factor here
   summarise(mean = mean(___), #continuous variable here
             sd = sd(___),     #same continuous variable as above here
@@ -11,8 +11,8 @@ df.sum <- ___ |>             #data frame name here
   mutate(sem = sd/(sqrt(n)))
 
 #make bar graph
-bar.plot <- ggplot(
-  data=df.sum,      #put the factor on the x-axis
+bar_plot <- ggplot(
+  data=df_sum,      #put the factor on the x-axis
   aes(x = ___,  
       y = mean,     
       fill = ___))+  #same factor as x-axis for fill
@@ -37,7 +37,7 @@ bar.plot <- ggplot(
   theme_classic(base_size=16) +
   theme(legend.position="none")
 
-bar.plot 
+bar_plot 
 
 #see the resources below for some additional options to make a nice plot 
 # https://www.datanovia.com/en/lessons/ggplot-barplot/

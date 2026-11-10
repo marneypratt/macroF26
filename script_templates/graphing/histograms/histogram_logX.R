@@ -4,13 +4,13 @@
 #then go up and down from there to find a useful binwidth
 
 #first calculate the central tendency you want for each group
-df.sum <- ___ |>             #data frame name here
+df_sum <- ___ |>             #data frame name here
   group_by(___) |>           #name of factor here
   summarise(median = median(___), #continuous variable here
             mean = mean(___))     #continuous variable here
 
 
-histogram.plot <- ggplot(
+histogram_plot <- ggplot(
   data = ___, #put the data frame name here
   
   #set the aesthetics
@@ -24,7 +24,7 @@ histogram.plot <- ggplot(
                  show.legend = FALSE) + 
   
   #adds a vertical line for the central tendency
-  geom_vline(data = df.sum,
+  geom_vline(data = df_sum,
              aes(xintercept = median),  #change to mean if normal
              col='red',
              size=2)+
@@ -42,7 +42,7 @@ histogram.plot <- ggplot(
   theme_classic(base_size = 16)  +  #sets the font size
   theme(legend.position = "none")   #controls legend/key
 
-histogram.plot
+histogram_plot
 
 #see the resources below for some additional options to make a nice plot 
 # https://www.datanovia.com/en/lessons/ggplot-histogram/
