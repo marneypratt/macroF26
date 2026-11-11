@@ -369,6 +369,8 @@ Make sure to **insert this combined graph into your lab notebook and write a fig
 
 Now that we have a sense of how the density of your taxonomic group varies upstream and downstream of Paradise Pond, let's look at how density correlates with several environmental variables. We can use a correlation matrix to look at all the variables at once.
 
+Note that because most of these variables did not have a normal distribution (and Pearson's correlation assumes a normal distribution), we will take the logarithm of each variable to get closer to normal distribution. Because you can't take the log of zero, we will also add one to all the values before taking the log. The function in R that does this is `log1p`.
+
 **Optional** - you can check out [An Introduction to corrplot Package](https://cran.r-project.org/web/packages/corrplot/vignettes/corrplot-intro.html) for more on making a correlation matrix
 
 ```{r}
@@ -427,13 +429,15 @@ dev.off()
 
 ```
 
-Here we used a few functions from the `corrplot` package to do multiple correlation tests (here we are using Pearson's correlation coefficient, *r*). The output from the `corrplot` function shows each variable compared to each of the other variables. We also used `corrplot::cor.mtest` to determine which correlation coefficients were significant different from zero. The tests where there was not a significant correlation ("p>0.05") are left blank (not shown). The value shown in black within each square is Pearson's correlation coefficient (*r*) for the varialbe in that particular column vs the variable in that row. The colored ellipses in each square represent the direction of the relationship (blue and tilted to the right is a positive relationship, red and tilted to the left is a negative relationship) and the intensity of the color and shape of the ellipse indicate the strength of the correlation (darker colors and skinnier ellipses are stronger correlations).
+Here we used a few functions from the `corrplot` package to do multiple correlation tests (here we are using Pearson's correlation coefficient, *r*). The output from the `corrplot` function shows each variable compared to each of the other variables (don't forget that we first transformed all the variavles by adding one and then taking the logarithm). We also used `corrplot::cor.mtest` to determine which correlation coefficients were significantly different from zero. The tests where there was not a significant correlation ("p>0.05") are left blank (not shown). The value shown in black within each square is Pearson's correlation coefficient (*r*) for the variable in that particular column vs the variable in that row. The colored ellipses in each square represent the direction of the relationship (blue and tilted to the right is a positive relationship, red and tilted to the left is a negative relationship) and the intensity of the color and shape of the ellipse indicate the strength of the correlation (darker colors and skinnier ellipses are stronger correlations).
 
 Note that the code above will save a PNG file of this plot in your results folder. This PNG file may be easier to look at and zoom into rather than looking at the direct output.
 
 First look at the density value for your taxonomic group which should be in the first row. Find the environmental variable(s) that have the strongest correlation to include in your results.
 
 You should also note the environmental variables that are strongly correlated with each other. Usually, water temperature (wTemp) and dissolved oxygen (DO) have a strong negative correlation. This is partly just physics - colder water holds more oxygen. Take note of other strong relationships among the environmental variables and see if you can think of why they might be correlated.
+
+You will need to insert the saved file into your lab notebook.
 
 If you are working on the Smith server, you will first need to export this file to your computer:
 
@@ -443,7 +447,7 @@ If you are working on the Smith server, you will first need to export this file 
 
 -   Select "Export" and then save the file to your computer
 
-Make sure to insert this graph into your results slides and write a figure legend in the speaker notes (see the assignment handout for more details).
+Make sure to insert this graph into your lab notebook and write a figure legend.
 
 ## Strongest Correlation
 
