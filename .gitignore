@@ -53,3 +53,22 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+results/LocationWithEffectSize.png
+*.typ
+*.bib
+*.md
+*.toml
+results/cor_plot.png
+macroAnalysis_ExampleWorms.pdf
+.quarto/typst/packages/preview/theorion/0.4.1/LICENSE
+.quarto/typst/packages/preview/showybox/2.0.4/LICENSE
+.quarto/typst/packages/preview/orange-book/0.7.1/template/placeholder.jpg
+.quarto/typst/packages/preview/orange-book/0.7.1/template/orange3.jpg
+.quarto/typst/packages/preview/orange-book/0.7.1/template/orange2.jpg
+.quarto/typst/packages/preview/orange-book/0.7.1/template/orange1.jpg
+.quarto/typst/packages/preview/orange-book/0.7.1/template/creodocs_logo.svg
+.quarto/typst/packages/preview/orange-book/0.7.1/template/background.svg
+.quarto/typst/packages/preview/orange-book/0.7.1/LICENSE
+.quarto/typst/packages/preview/octique/0.1.1/LICENSE
+.quarto/typst/packages/preview/marginalia/0.3.1/UNLICENSE
+.quarto/typst/packages/preview/fontawesome/0.5.0/LICENSE
