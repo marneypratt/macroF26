@@ -237,11 +237,6 @@ First, use what we have learned in this class to choose a graph type that will e
 
 
 
-
-
-
-
-
 # put the object name of your plot above in the blank below
 # you can change the colors if you want to
 # but make sure they are colorblind friendly (see link above this code chunk)
