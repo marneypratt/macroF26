@@ -1,10 +1,3 @@
----
-
-editor_options: 
-  markdown: 
-    wrap: 72
----
-
 # Macroinvertebrate Data Analysis for Bio 131 Fall 2026
 
 ### by Marney Pratt
